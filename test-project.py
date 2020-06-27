@@ -9,3 +9,6 @@ print(numrow2)
 
 keypad = pd.DataFrame(numrow2, columns=['a', 'b', 'c'])
 print(keypad)
+
+keypad2 = pd.DataFrame(np.fliplr(numrow2), columns=['a', 'b', 'c'])
+print(keypad2)
